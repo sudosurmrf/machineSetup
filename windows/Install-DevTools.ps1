@@ -1,6 +1,9 @@
 <#
 .SYNOPSIS
   Installs development tools on Windows using winget, and configures PATH for our dev environment.
+** If your computer has a strict execution policy, you will need to run the following command first in Powershell **
+
+Set-ExecutionPolicy RemoteSigned -Scope Process
 
 .DESCRIPTION
   This script will install:
